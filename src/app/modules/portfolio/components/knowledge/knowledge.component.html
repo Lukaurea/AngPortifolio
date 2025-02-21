@@ -1,18 +1,11 @@
 <div>
   <h2>Conhecimentos</h2>
+  <hr />
   <ul>
-    <li><img src="" alt="" /></li>
+    @for(item of arrayKnowledge(); track item){
     <li>
-      <a
-        href="https://www.flaticon.com/br/icones-gratis/html"
-        title="html ícones"
-        >Html ícones criados por Freepik - Flaticon</a
-      >
+      <img [src]="item.src" [alt]="item.alt" />
     </li>
-    <li>
-      <img src="portfolio-angular/src/assets/html.png" alt="html" />
-    </li>
-    <li></li>
-    <li></li>
+    }
   </ul>
 </div>
