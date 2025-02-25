@@ -10,8 +10,32 @@ html,
 body {
   scroll-behavior: smooth;
   height: 100%;
+  background-color: beige;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-size: 22px;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-size: 22px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+p {
+  color: var(--grey);
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
